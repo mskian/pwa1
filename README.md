@@ -3,7 +3,7 @@
 Turns Flarum into a basic progressive web app. This does not include an offline mode, although it attempts to at least cache the index locally. Better offline features may be added in the future (feel free to do a pull request to help out). With this extension installed, if using a compatible browser, you will see a way to install the forum. Doing this will add an icon to your desktop or homescreen, and now it will open in a "standalone" app window.
 
 This is what you see in Chrome (on a desktop). Each browser and device will handle this differently.
-[img]https://i.ibb.co/H4PBm8p/Screenshot-2019-09-28-at-5-27-26-AM.png[/img]
+![](https://i.ibb.co/H4PBm8p/Screenshot-2019-09-28-at-5-27-26-AM.png)
 
 Here is the experience after it is installed on a Chromebook:
 https://vimeo.com/362968169
