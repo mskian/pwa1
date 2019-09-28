@@ -15,6 +15,24 @@ use Flarum\Frontend\Document;
 return [
     (new Extend\Frontend('forum'))
         ->content(function (Document $document) {
-            $document->head[] = '<link rel="manifest" href="/assets/extensions/zerosonesfun-pwa/site.webmanifest?v=pwa1"><script> if ('serviceWorker' in navigator) { // register service worker navigator.serviceWorker.register('/assets/extensions/zerosonesfun-pwa/service-worker.js'); }</script>';
+            $document->head[] = '<link rel="manifest" href="/assets/extensions/zerosonesfun-pwa/site.webmanifest?v=pwaflarum">';
+        })
+        ->content(function (Document $document) {
+            $document->foot[] = '<script>
+if ("serviceWorker" in navigator) {
+  if (navigator.serviceWorker.controller) {
+    console.log("Active service worker found, no need to register");
+  } else {
+    // Register the service worker
+    navigator.serviceWorker
+      .register("/sw.js", {
+        scope: "/"
+      })
+      .then(function (reg) {
+        console.log("Service worker has been registered for scope: " + reg.scope);
+      });
+  }
+}
+</script>';
         })
 ];
