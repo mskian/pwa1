@@ -1,8 +1,8 @@
-# Your Favicon Package
+# Flarum PWA
 
-This package was generated with [RealFaviconGenerator](https://realfavicongenerator.net/) [v0.16](https://realfavicongenerator.net/change_log#v0.16)
+Turns Flarum into a basic progressive web app.
 
-## Install instructions
+## Manual Install instructions
 
 To install this package:
 
