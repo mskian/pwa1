@@ -1,6 +1,8 @@
 {
     "name": "Forum",
     "short_name": "Forum",
+    "start_url": "/",
+    "scope" : "./",
     "icons": [
         {
             "src": "/assets/extensions/zerosonesfun-pwa/android-chrome-192x192.png?v=pwa1",
