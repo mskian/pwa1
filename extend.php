@@ -23,6 +23,6 @@ return [
 <link rel="shortcut icon" href="/assets/extensions/zerosonesfun-pwa/favicon.ico?v=pwa1">
 <meta name="msapplication-TileColor" content="#da532c">
 <meta name="msapplication-config" content="/assets/extensions/zerosonesfun-pwa/browserconfig.xml?v=pwa1">
-<meta name="theme-color" content="#ffffff">';
+<meta name="theme-color" content="#ffffff"><script> if ('serviceWorker' in navigator) { // register service worker navigator.serviceWorker.register('/assets/extensions/zerosonesfun-pwa/service-worker.js'); }</script>';
         })
 ];
