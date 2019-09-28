@@ -1,0 +1,22 @@
+{
+    "name": "zerosonesfun/pwa",
+    "description": "A Progressive Web App extension.",
+    "type": "flarum-extension",
+    "license": "MIT",
+    "require": {
+        "flarum/core": "^0.1.0-beta.8"
+    },
+    "autoload": {
+        "psr-4": {"ZerosOnesFun\\Pwa\\": "src/"}
+    },
+    "extra": {
+        "flarum-extension": {
+            "title": "PWA",
+            "icon": {
+                "name": "fas fa-mobile",
+                "backgroundColor": "#ddd",
+                "color": "#000"
+            }
+        }
+    }
+}
