@@ -1,6 +1,14 @@
 {
     "name": "zerosonesfun/pwa",
     "description": "A Progressive Web App extension.",
+    "authors": [
+        {
+            "name": "Billy Wilcosky",
+            "email": "wilcosky@gmail.com",
+            "homepage": "https://wilcosky.com",
+            "role": "Creator"
+        }
+    ],
     "type": "flarum-extension",
     "license": "MIT",
     "require": {
