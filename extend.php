@@ -15,7 +15,7 @@ use Flarum\Frontend\Document;
 return [
     (new Extend\Frontend('forum'))
         ->content(function (Document $document) {
-            $document->head[] = '<link rel="manifest" href="/assets/extensions/zerosonesfun-pwa/site.webmanifest?v=pwaflarum">';
+            $document->head[] = '<link rel="manifest" href="/site.webmanifest">';
         })
         ->content(function (Document $document) {
             $document->foot[] = '<script>
