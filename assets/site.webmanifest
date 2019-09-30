@@ -2,15 +2,15 @@
     "name": "Forum",
     "short_name": "Forum",
     "start_url": "/",
-    "scope" : "./",
+    "scope" : "/",
     "icons": [
         {
-            "src": "/assets/extensions/zerosonesfun-pwa/pwa-192x192.png?v=pwa1",
+            "src": "/assets/extensions/zerosonesfun-pwa/pwa-192x192.png",
             "sizes": "192x192",
             "type": "image/png"
         },
         {
-            "src": "/assets/extensions/zerosonesfun-pwa/pwa-512x512.png?v=pwa1",
+            "src": "/assets/extensions/zerosonesfun-pwa/pwa-512x512.png",
             "sizes": "512x512",
             "type": "image/png"
         }
