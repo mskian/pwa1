@@ -33,4 +33,4 @@ https://vimeo.com/362968169
 
 #### Why do I have to put sw.js and site.webmanifest at the public root?
 
-PWAs require a service worker and a web manifest file. The service worker will only work with the files it is contained within. In other words, if you try to call it from an assets folder, the app will not work. This is because if in an assets folder, the service worker only pertains to the files in that assets folder. The web manifest kind of works elsewhere, but I noticed a warning in my dev console when the web menifest was placed outside of the root. Therefore, let's keep that file in your public root as well.
+PWAs require a service worker and a web manifest file. The service worker will only work with the files it is contained within. In other words, if you try to call it from an assets folder, the app will not work. This is because if in an assets folder, the service worker only pertains to the files in that assets folder. The web manifest kind of works elsewhere, but I noticed a warning in my dev console when the web manifest was placed outside of the root. Therefore, let's keep that file in your public root as well.
