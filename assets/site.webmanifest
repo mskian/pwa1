@@ -1,9 +1,30 @@
 {
     "name": "Forum",
     "short_name": "Forum",
-    "start_url": "/",
-    "scope" : "/",
+    "description": "Flarum Forum Progressive web App.",
+    "start_url": ".\/?utm_source=flarumpwa&utm_medium=pwa&utm_campaign=pwapp",
+    "scope": "\/",
     "icons": [
+        {
+            "src": "/assets/extensions/zerosonesfun-pwa/pwa-48x48.png",
+            "sizes": "48x48",
+            "type": "image/png"
+        },
+        {
+            "src": "/assets/extensions/zerosonesfun-pwa/pwa-72x72.png",
+            "sizes": "72x72",
+            "type": "image/png"
+        },
+        {
+            "src": "/assets/extensions/zerosonesfun-pwa/pwa-96x96.png",
+            "sizes": "96x96",
+            "type": "image/png"
+        },
+        {
+            "src": "/assets/extensions/zerosonesfun-pwa/pwa-144x144.png",
+            "sizes": "144x144",
+            "type": "image/png"
+        },
         {
             "src": "/assets/extensions/zerosonesfun-pwa/pwa-192x192.png",
             "sizes": "192x192",
@@ -17,5 +38,6 @@
     ],
     "theme_color": "#ffffff",
     "background_color": "#ffffff",
-    "display": "standalone"
+    "display": "standalone",
+    "orientation": "any"
 }
